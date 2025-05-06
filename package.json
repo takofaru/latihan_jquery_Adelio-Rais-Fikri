@@ -1,0 +1,11 @@
+{
+  "name": "jquery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:takofaru/latihan_jquery_Adelio-Rais-Fikri.git",
+  "author": "takofaru <fadelior@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
