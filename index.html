@@ -6,21 +6,54 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        <div class="title">
-            <h1>Choose a Number!</h1>
+        <div class="toggleView">
+            <div class="fade">
+                <div class="fadeInOut">
+                    <h4>Fade In and Fade Out</h4>
+                    <p id="textI_O">I will fade</p>
+                    <div id="fadeButtons">
+                        <button id="fadeIn" type="button">Fade in</button>
+                        <button id="fadeOut" type="button">Fade out</button>
+                    </div>
+                </div>
+                <div class="fadeToggle">
+                    <h4>Toggle Fade</h4>
+                    <p id="textToggle">I can fade in and out</p>
+                    <button id="fadeToggle" type="button">Toggle Fade</button>
+                </div>
+                <div class="fadeTo">
+                    <h4>Fade to Certain Opacity</h4>
+                    <p id="transparent">Going transparent</p>
+                    <button id="goTransparent" type="button">Set Opacity</button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slideUpDown">
+                    <h4>Slide Up and Slide Down</h4>
+                    <p id="slideUDText">I'm sliding</p>
+                    <div class="slideButtons">
+                        <button id="slideUp" type="button">Slide Up</button>
+                        <button id="slideDown" type="button">Slide Down</button>
+                    </div>
+                </div>
+                <div class="slideToggle">
+                    <h4>Slide Toggle</h4>
+                    <p id="slideToggleText">I'm sliding</p>
+                    <button id="slideToggleButton" type="button">Toggle Slide</button>
+                </div>
+            </div>
+            <div class="animate">
+                <h4>Animate</h4>
+                <p id="animText">Square</p>
+                <br><br><br><br>
+                <div class="animateButtons">
+                    <button id="startAnim" type="button">Start</button>
+                    <button id="stopAnim" type="button">Stop</button>
+                </div>
+            </div>
         </div>
-        <div class="main">
-            <ul class="number">
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
-            <div class="bar">
-                <div class="pointer"></div>
-            </div>
-            <div class="button">
-                <button type="button">Press here to start</button>
-            </div>
+        <div class="buttonStart">
+            <button id="button" type="button">Show Content</button>
         </div>
     </body>
 </html>
